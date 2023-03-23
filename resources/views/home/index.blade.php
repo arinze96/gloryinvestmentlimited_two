@@ -164,7 +164,7 @@
     <!-- platfrom Start -->
     <div class="platfrom" id="about">
         <div class="bg">
-            <img src="{{ asset('front/img/front10.jpfg') }}" alt="">
+            <img src="{{ asset('front/img/front10.jpeg') }}" alt="">
         </div>
         <div class="container">
             <div class="row">
@@ -378,7 +378,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="left-image">
-                                <img src="{{ asset('front/img/group-39.png') }}" alt="">
+                                <img src="{{ asset('front/img/Group-39.png') }}" alt="">
                             </div>
                         </div>
                         <div class="col-md-6">
