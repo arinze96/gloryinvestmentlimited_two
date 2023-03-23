@@ -3,7 +3,7 @@
 
 
 <head>
-     <title>Stareton Finance</title>
+     <title>Gloryinvestmentslimited</title>
     @include('include.#home_css')
 </head>
 

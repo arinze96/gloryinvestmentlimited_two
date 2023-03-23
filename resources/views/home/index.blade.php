@@ -4,6 +4,19 @@
 
 <head>
     <title>Gloryinvestmentlimited</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <title>Gloryinvestmentlimited</title>
+    <link href="{{ asset('front/new/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ asset('front/new/assets/css/fontawesome.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/new/assets/css/templatemo-host-cloud.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/new/assets/css/owl.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     @include('include.home_css')
 
@@ -37,20 +50,16 @@
 </head>
 
 <body>
-    {{-- <div class="preloader">
-        <div class="preloader-inner">
-            <div class="preloader-icon">
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div> --}}
 
-    @include('include.home_header')
+    <div style="background-color: #c0c0c0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000000;">
+        @include('include.home_header')
+    </div>
 
-    <div class="banner" id="home" style="background-image: url({{ asset('front/img/bg_green.png') }})">
-
-
+    {{-- <div class="banner" id="home" style="background-image: url({{ asset('front/img/@33.jpg') }})">
         <div class="hero-area">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
@@ -58,7 +67,7 @@
                         <div class="banner-content  wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
                             <h3 class="subtitle" style="color: white">let’s us do the work for you</h3>
                             <h1 class="head" style="color: white">Cryptocurrency Investment</h1>
-                            <p class="text" style="color: white">
+                            <p class="text" style="color: #7cbf42">
                                 Take the anxiety out of investing by letting us do the work for you
                             </p>
                             <button type="button" style="width: 60%; margin-top: 30px; background-color: #7cbf42"
@@ -68,9 +77,26 @@
                 </div>
             </div>
         </div>
+    </div> --}}
+
+    <div class="page-heading2 header-text">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-xl-7 col-lg-6">
+                    <div class="banner-content  wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                        <h3 class="subtitle" style="color: white">let’s us do the work for you</h3>
+                        <h1 class="head" style="color: white">Cryptocurrency Investment</h1>
+                        <p class="text" style="color: #7cbf42">
+                            Take the anxiety out of investing by letting us do the work for you
+                        </p>
+                        <button type="button" style="width: 60%; margin-top: 30px; background-color: #7cbf42"
+                            class="btn btn-secondary btn-lg btn-block">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- Compare Start -->
 
     <div class="fature" id="howworks">
         <div class="container">
@@ -121,6 +147,20 @@
         </div>
     </div>
 
+    <div class="about-us">
+        <div class="container">
+            <h1 style="text-align: center">About Us</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <video style="width: 100%; height: 100%" controls>
+                        <source src="{{ asset('front/videos/gil.mp4') }}" type="video/mp4">
+
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- platfrom Start -->
     <div class="platfrom" id="about">
         <div class="bg">
@@ -137,14 +177,10 @@
                                     <h4 class="lasthead">About us</h4>
                                     <h2 class="title">The Online Financial investment Platform</h2>
                                     <p class="text">
-                                        Glory Investment Limited is a instant Financial investment Platform. Gooland is
-                                        a platform that offer
-                                        access to a variety of different
-                                        services such as cryptocurrency, real estate investment, Retirement account,
-                                        Children accounts .Our mission is to offer our users easy and secure
-                                        transactions
-                                        and make the investment process effortless for everyone who wants to invest in
-                                        the above mentioned services.
+                                        Glory Investment Limited is an instant Financial Investment platform that offers
+                                        a wide range of different services, such as Cryptocurrency, Real Estate,
+                                        Retirement, among others. Our mission is to offer the public simple and secure
+                                        investment with stress-free process which suit each investor.
                                     </p>
                                 </div>
                             </div>
@@ -426,13 +462,13 @@
                     </div>
                     <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #e6f2ff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
-                        <img src="{{ asset('front/img/team6.jpeg') }}" alt="" style="height: 78%">
+                        <img src="{{ asset('front/img/team6.jpeg') }}" alt="">
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Brandon Warren Owner and
                             Major Stakeholder</p>
                     </div>
                     <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #e6f2ff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
-                        <img src="{{ asset('front/img/team1.jpeg') }}" alt="" style="height: 78%">
+                        <img src="{{ asset('front/img/team1.jpeg') }}" alt="">
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Russell Mellon Excecutive
                             vice president.</p>
                     </div>

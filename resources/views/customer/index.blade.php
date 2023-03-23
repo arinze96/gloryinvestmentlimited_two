@@ -1,43 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
-    <title>Gloryinvestmentlimited</title>
+    <title>Gloryinvestmentslimited</title>
     @include('include.c_css')
     <script>
         function myFunction() {
-          // Get the text field
-          var copyText = document.getElementById("myInput");
-        
-          // Select the text field
-          copyText.select();
-          copyText.setSelectionRange(0, 99999); // For mobile devices
-        
-          // Copy the text inside the text field
-          navigator.clipboard.writeText(copyText.value);
-          
-          // Alert the copied text
-          alert("Copied the text: " + copyText.value);
+            var copyText = document.getElementById("myInput");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            navigator.clipboard.writeText(copyText.value);
+            alert("Copied the text: " + copyText.value);
         }
-        </script>
-
+    </script>
 </head>
 
 <body class="g-sidenav-show bg-gradient-primary  bg-gray-100">
-
-
+    <div class="loader"><i class="fa-solid fa-spinner"></i></div>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
-
     @include('include.c_sidebar')
-
     <main class="main-content  position-relative max-height-vh-100 h-100 ">
-
         @include('include.c_header')
 
-        
+
 
 
 
@@ -46,10 +32,11 @@
                 ${{ number_format($account->dolla_balance, 0, '.', ',') }}
             </h6>
             <div class="nk-block-des" style="width: 200px">
-                <p style="color: white">REFERAL LINK: <span onclick="myFunction()"><i class="fa fa-clone" aria-hidden="true"></i></span> 
+                <p style="color: white">REFERAL LINK: <span onclick="myFunction()"><i class="fa fa-clone"
+                            aria-hidden="true"></i></span>
                     <input type="text" class=" form-control" id="myInput"
                         value="{{ route('user.register', [auth()->user()->username]) }}">
-                        
+
                 </p>
             </div>
             <div class="row">
@@ -78,29 +65,7 @@
                         </div>
                     </a>
                 </div>
-                {{-- <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4" style="margin-top: 20px;">
-                    <a href="{{ route('user.wallet.view') }}">
-                    <div class="card" style="background-color: #ffffff40!important; height: 100px">
-                        <div class="card-body p-3">
-                            <div class="row">
-                                <div class="col-8">
-                                    <div class="numbers">
-                                        <p style="color: white; font-size: 10px; font-weight: bold">
-                                            Wallet</p>
-                                            
-                                    </div>
-                                </div>
-                                <div class="col-4 text-end">
-                                    <div
-                                        class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-                                        <i class="ni ni-folder-17 text-lg opacity-10" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </a>
-                </div> --}}
+            
                 <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4" style="margin-top: 20px;">
                     <a href="{{ route('user.deposit.post') }}">
                         <div class="card" style="background-color: #ffffff40!important; height: 100px">
@@ -427,7 +392,7 @@
 
             </div>
 
-            {{-- <div class="row mt-4">
+            <div class="row mt-4">
                 <div class="col-lg-7 mb-lg-0 mb-4">
                     <div class="card" style="background-color: #ffffff60!important;"">
                         <div class="card-body p-3">
@@ -436,11 +401,12 @@
                                     <div class="d-flex flex-column h-100">
                                         <p class="mb-1 pt-2 text-bold">Built for winners</p>
                                         <h5 class="font-weight-bolder">Kickstart your journey</h5>
-                                        <p class="mb-5">At Gloryinvestmentlimited we prioritize your financial goals and
+                                        <p class="mb-5">At Gloryinvestmentslimited we prioritize your financial goals and
                                             will do the due diligence to attain them</p>
                                         <a class="text-body text-sm font-weight-bold mb-0 icon-move-right mt-auto"
                                             href="javascript:;">
                                             You are always welcomed
+                                            {{-- <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i> --}}
                                         </a>
                                     </div>
                                 </div>
@@ -461,7 +427,7 @@
                         </div>
                     </div>
                 </div>
-             
+
                 <div class="col-lg-5 mb-lg-0 mb-4">
                     <div class="card z-index-2" style="background-color: #ffffff60!important;"">
                         <div class="card-body p-3">
@@ -621,24 +587,19 @@
                         </div>
                     </div>
                 </div>
-            </div> --}}
+            </div>
 
-            <div class="row my-4" style="margin-top: 30px">
-                <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
-                    <div class="card">
-                        <div class="card-header pb-0">
-                            <div class="row">
-                                <div class="col-lg-6 col-7">
-                                    <h4>Your Recent Deposit</h4>
-                                    {{-- <p class="text-sm mb-0">
-                                        <i class="fa fa-check text-info" aria-hidden="true"></i>
-                                        <span class="font-weight-bold ms-1">30 done</span> this month
-                                    </p> --}}
+            @if (!$deposits->isEmpty())
+                <div class="row my-4">
+                    <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
+                        <div class="card">
+                            <div class="card-header pb-0">
+                                <div class="row">
+                                    <div class="col-lg-6 col-7">
+                                        <h4>Your Recent Deposit</h4>
+                                    </div>
                                 </div>
-
                             </div>
-                        </div>
-                        @if (!$deposits->isEmpty())
                             <div class="card-body px-0 pb-2">
                                 <div class="table-responsive">
                                     <table class="table align-items-center mb-0">
@@ -698,99 +659,27 @@
                                     </table>
                                 </div>
                             </div>
-                        @endif
+                        </div>
                     </div>
                 </div>
-                {{-- <div class="col-lg-4 col-md-6">
-                    <div class="card h-100">
-                        <div class="card-header pb-0">
-                            <h6>Orders overview</h6>
-                            <p class="text-sm">
-                                <i class="fa fa-arrow-up text-success" aria-hidden="true"></i>
-                                <span class="font-weight-bold">24%</span> this month
-                            </p>
-                        </div>
-                        <div class="card-body p-3">
-                            <div class="timeline timeline-one-side">
-                                <div class="timeline-block mb-3">
-                                    <span class="timeline-step">
-                                        <i class="ni ni-bell-55 text-success text-gradient"></i>
-                                    </span>
-                                    <div class="timeline-content">
-                                        <h6 class="text-dark text-sm font-weight-bold mb-0">$2400, Design changes</h6>
-                                        <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">22 DEC 7:20 PM</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-block mb-3">
-                                    <span class="timeline-step">
-                                        <i class="ni ni-html5 text-danger text-gradient"></i>
-                                    </span>
-                                    <div class="timeline-content">
-                                        <h6 class="text-dark text-sm font-weight-bold mb-0">New order #1832412</h6>
-                                        <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">21 DEC 11 PM</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-block mb-3">
-                                    <span class="timeline-step">
-                                        <i class="ni ni-cart text-info text-gradient"></i>
-                                    </span>
-                                    <div class="timeline-content">
-                                        <h6 class="text-dark text-sm font-weight-bold mb-0">Server payments for April
-                                        </h6>
-                                        <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">21 DEC 9:34 PM</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-block mb-3">
-                                    <span class="timeline-step">
-                                        <i class="ni ni-credit-card text-warning text-gradient"></i>
-                                    </span>
-                                    <div class="timeline-content">
-                                        <h6 class="text-dark text-sm font-weight-bold mb-0">New card added for order
-                                            #4395133</h6>
-                                        <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">20 DEC 2:20 AM</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-block mb-3">
-                                    <span class="timeline-step">
-                                        <i class="ni ni-key-25 text-primary text-gradient"></i>
-                                    </span>
-                                    <div class="timeline-content">
-                                        <h6 class="text-dark text-sm font-weight-bold mb-0">Unlock packages for
-                                            development</h6>
-                                        <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">18 DEC 4:54 AM</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-block">
-                                    <span class="timeline-step">
-                                        <i class="ni ni-money-coins text-dark text-gradient"></i>
-                                    </span>
-                                    <div class="timeline-content">
-                                        <h6 class="text-dark text-sm font-weight-bold mb-0">New order #9583120</h6>
-                                        <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">17 DEC</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
-            </div>
+            @endif
 
-            <div class="row my-4">
-                <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
-                    <div class="card">
-                        <div class="card-header pb-0">
-                            <div class="row">
-                                <div class="col-lg-6 col-7">
-                                    <h4>Your Active Investment</h4>
-                                    {{-- <p class="text-sm mb-0">
+            @if (!$investments->isEmpty())
+                <div class="row my-4">
+                    <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
+                        <div class="card">
+                            <div class="card-header pb-0">
+                                <div class="row">
+                                    <div class="col-lg-6 col-7">
+                                        <h4>Your Active Investment</h4>
+                                        {{-- <p class="text-sm mb-0">
                                         <i class="fa fa-check text-info" aria-hidden="true"></i>
                                         <span class="font-weight-bold ms-1">30 done</span> this month
                                     </p> --}}
-                                </div>
+                                    </div>
 
+                                </div>
                             </div>
-                        </div>
-                        @if (!$investments->isEmpty())
                             <div class="card-body px-0 pb-2">
                                 <div class="table-responsive">
                                     <table class="table align-items-center mb-0">
@@ -860,26 +749,25 @@
                                     </table>
                                 </div>
                             </div>
-                        @endif
-                        {{-- @else
-                        <h4 class="text-center">No Investment at the moment</h4>
-                        @endif --}}
+                            {{-- @else
+                                <h4 class="text-center">No Investment at the moment</h4>
+                                @endif --}}
+                        </div>
                     </div>
                 </div>
-            </div>
+            @endif
 
-            <div class="row my-4">
-                <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
-                    <div class="card">
-                        <div class="card-header pb-0">
-                            <div class="row">
-                                <div class="col-lg-6 col-7">
-                                    <h4>Your Recent Withdrawal</h4>
+            @if (!$withdrawals->isEmpty())
+                <div class="row my-4">
+                    <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
+                        <div class="card">
+                            <div class="card-header pb-0">
+                                <div class="row">
+                                    <div class="col-lg-6 col-7">
+                                        <h4>Your Recent Withdrawal</h4>
+                                    </div>
                                 </div>
-
                             </div>
-                        </div>
-                        @if (!$withdrawals->isEmpty())
                             <div class="card-body px-0 pb-2">
                                 <div class="table-responsive">
                                     <table class="table align-items-center mb-0">
@@ -945,10 +833,389 @@
                                     </table>
                                 </div>
                             </div>
-                        @endif
+                        </div>
                     </div>
                 </div>
-            </div>
+            @endif
+
+            @if ($retirement)
+                <div class="row my-4">
+                    <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
+                        <div class="card">
+                            <div class="card-header pb-0">
+                                <div class="row">
+                                    <div class="col-lg-6 col-7">
+                                        <h4>Your Recent Retirement Deposit</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body px-0 pb-2">
+                                <div class="table-responsive">
+                                    <table class="table align-items-center mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
+                                                    style="font-weight: 900; color: black">
+                                                    #</th>
+                                                <th
+                                                    class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                    Next-of-kin</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Currency
+                                                </th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Amount</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Duration</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Date</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach ($retirement as $item => $data)
+                                                <tr>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $key + 1 }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->next_of_kin }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->currency }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->currency == 'USD' ? number_format($data->amount, 0, '.', ',') : $data->amount }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->duration }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ date('d M, Y', strtotime($data->created_at)) }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->status == 0 ? 'processing' : 'approved' }}
+                                                    </td>
+                                                </tr>
+                                            @endforeach
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endif
+
+
+            @if ($childrenAccount)
+                <div class="row my-4">
+                    <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
+                        <div class="card">
+                            <div class="card-header pb-0">
+                                <div class="row">
+                                    <div class="col-lg-6 col-7">
+                                        <h4>Your Recent Childrens Account Investment</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body px-0 pb-2">
+                                <div class="table-responsive">
+                                    <table class="table align-items-center mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
+                                                    style="font-weight: 900; color: black">
+                                                    #</th>
+                                                <th
+                                                    class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                    Childs fullname</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Currency
+                                                </th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Amount</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Duration</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Date</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach ($childrenAccount as $item => $data)
+                                                <tr>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $key + 1 }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->childs_fullname }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->currency }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->currency == 'USD' ? number_format($data->amount, 0, '.', ',') : $data->amount }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->duration }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ date('d M, Y', strtotime($data->created_at)) }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->status == 0 ? 'processing' : 'approved' }}
+                                                    </td>
+                                                </tr>
+                                            @endforeach
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endif
+
+
+            @if ($charities)
+                <div class="row my-4">
+                    <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
+                        <div class="card">
+                            <div class="card-header pb-0">
+                                <div class="row">
+                                    <div class="col-lg-6 col-7">
+                                        <h4>Your Recent Donation to Charity</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body px-0 pb-2">
+                                <div class="table-responsive">
+                                    <table class="table align-items-center mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
+                                                    style="font-weight: 900; color: black">
+                                                    #</th>
+                                                <th
+                                                    class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                    fullname</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Currency
+                                                </th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Amount</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Email</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Date</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach ($charities as $item => $data)
+                                                <tr>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $key + 1 }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->firstname }} {{ $data->lastname }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->currency }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->currency == 'USD' ? number_format($data->amount, 0, '.', ',') : $data->amount }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->email }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ date('d M, Y', strtotime($data->created_at)) }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->status == 0 ? 'processing' : 'approved' }}
+                                                    </td>
+                                                </tr>
+                                            @endforeach
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endif
+
+            @if ($allLoans)
+                <div class="row my-4">
+                    <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
+                        <div class="card">
+                            <div class="card-header pb-0">
+                                <div class="row">
+                                    <div class="col-lg-6 col-7">
+                                        <h4>Your Recent Loan Requests</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body px-0 pb-2">
+                                <div class="table-responsive">
+                                    <table class="table align-items-center mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
+                                                    style="font-weight: 900; color: black">
+                                                    #</th>
+                                                <th
+                                                    class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                    fullname</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Currency
+                                                </th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Amount</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Duration</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Date</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach ($allLoans as $item => $data)
+                                                <tr>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $key + 1 }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->firstname }} {{ $data->lastname }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->currency }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->amount }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->duration }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ date('d M, Y', strtotime($data->created_at)) }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->status == 0 ? 'processing' : 'approved' }}
+                                                    </td>
+                                                </tr>
+                                            @endforeach
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endif
+
+
+            @if ($nfp)
+                <div class="row my-4">
+                    <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
+                        <div class="card">
+                            <div class="card-header pb-0">
+                                <div class="row">
+                                    <div class="col-lg-6 col-7">
+                                        <h4>Your Recent NFP Deposit</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body px-0 pb-2">
+                                <div class="table-responsive">
+                                    <table class="table align-items-center mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
+                                                    style="font-weight: 900; color: black">
+                                                    #</th>
+                                                <th
+                                                    class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                    fullname</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Currency
+                                                </th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Amount</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Email</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Date</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach ($nfp as $item => $data)
+                                                <tr>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $key + 1 }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->firstname }} {{ $data->lastname }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->currency }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->amount }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->email }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ date('d M, Y', strtotime($data->created_at)) }}
+                                                    </td>
+                                                    <td class="align-middle text-center text-sm">
+                                                        {{ $data->status == 0 ? 'processing' : 'approved' }}
+                                                    </td>
+                                                </tr>
+                                            @endforeach
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endif
+
             <footer class="footer pt-3  ">
                 <div class="container-fluid">
                     <div class="row align-items-center justify-content-lg-between">
@@ -959,8 +1226,8 @@
                                     document.write(new Date().getFullYear())
                                 </script>,
                                 made with <i class="fa fa-heart"></i> by
-                                <a href="https://www.creative-tim.com/" class="font-weight-bold"
-                                    target="_blank">Gloryinvestmentlimited</a>
+                                <a href="https://staretontech.com/" class="font-weight-bold"
+                                    target="_blank">Gloryinvestmentslimited</a>
                             </div>
                         </div>
                     </div>

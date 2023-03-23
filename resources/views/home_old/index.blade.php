@@ -3,7 +3,7 @@
 
 
 <head>
-     <title>Stareton Finance</title>
+     <title>Gloryinvestmentslimited</title>
     @include('include.#home_css')
 </head>
 
@@ -130,7 +130,7 @@
                                     <h6 style="color: black">The Online Financial investment Platform
                                     </h6>
                                     <p>
-                                        Stareton finance is a instant Financial investment Platform. Gooland is
+                                        Gloryinvestmentslimited is a instant Financial investment Platform. Gloryinvestmentslimited is
                                         a platform that offer access to a variety of different services such as
                                         cryptocurrency, real estate investment, Retirement account, Children accounts
                                         .Our mission is to offer our users easy and secure transactions and make the
@@ -239,7 +239,7 @@
                         <div class="icons"><i class="icon-Coin-Offering"></i></div>
                         <h3 class="crypto_solution_desc">Business Consulting</h3>
                         <h6 style="color: white; font-size: 10px">
-                            At stareton finance we are on daily standby for Business Consulting, and strategic
+                            At Gloryinvestmentslimited we are on daily standby for Business Consulting, and strategic
                             development endeaours. We are alway available 24/7
                         </h6>
                     </div>
@@ -248,7 +248,7 @@
                         <h3 class="crypto_solution_desc">Financial Data Analysis
                         </h3>
                         <h6 style="color: white; font-size: 10px">
-                            At stareton finance we are on daily standby for Business Consulting, and strategic
+                            At Gloryinvestmentslimited we are on daily standby for Business Consulting, and strategic
                             development endeaours. We are alway available 24/7
                         </h6>
                     </div>

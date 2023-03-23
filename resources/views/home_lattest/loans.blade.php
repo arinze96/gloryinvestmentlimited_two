@@ -23,8 +23,8 @@
                                 <p>
                                     Getting a loan doesn’t have to be intimidating, with the right lender it can be a
                                     simple process. You only need a lender committed to taking the mystery out of the
-                                    mortgage loan process! At Stareton finance we understand! Our investors want simple
-                                    facts, honest answers and competitive products. Stareton finance automatically
+                                    mortgage loan process! At Gloryinvestmentslimited we understand! Our investors want simple
+                                    facts, honest answers and competitive products. Gloryinvestmentslimited automatically
                                     offers loan services to investors with over $100,000 investment either in our normal
                                     Weltweit Financial Services packages or the NFP plans. Investors over $100,000 are
                                     entitled to loans of $500,000-1millon dollars yearly with 5% paid monthly, or the
@@ -32,7 +32,7 @@
                                     required information and identity of the investor are duly confirmed by the Weltweit
                                     loan board. Every investor above $100,000 is provided with a personal account
                                     manager and the investor has a direct communication with the manager in order to see
-                                    that our loan offers are secured. GREAT INVESTING WITH THE Stareton finance FAMILY!
+                                    that our loan offers are secured. GREAT INVESTING WITH THE Gloryinvestmentslimited FAMILY!
                                 </p>
                             </div>
                         </div>

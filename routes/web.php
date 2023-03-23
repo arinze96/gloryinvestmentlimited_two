@@ -6,23 +6,10 @@ use App\Http\Controllers\AccountController;
 use Illuminate\Support\Facades\Artisan;
 
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
-// Route::get('/', [UserController::class,"index"])->name("app.home");
 Route::get("/register/{ref?}",[UserController::class,"register"])->name("user.register");
 Route::get("/forgot-password",[UserController::class,"forgotPasswordAdmin"])->name("user.forgot-password");
 Route::get("/login",[UserController::class,"login"])->name("user.login");
 Route::get("/faq",[UserController::class,"returnFAQ"])->name("user.faq");
-// Route::get("/privacy",[UserController::class,"returnPrivacy"])->name("user.privacy");
 Route::get("/terms",[UserController::class,"returnTerms"])->name("user.terms");
 Route::get("/certificates",[UserController::class,"certificates"])->name("user.certificates");
 Route::get("/withdrawalList",[UserController::class,"returnWithdrawalList"])->name("user.withdrawal_list");
@@ -31,8 +18,6 @@ Route::get("/topInvestors",[UserController::class,"returnTopInvestor"])->name("u
 Route::post("/register/{ref?}",[UserController::class,"register"])->name("user.register.post");
 Route::post("/login",[UserController::class,"login"])->name("user.login.post");
 Route::get("/contact",[UserController::class,"contact"])->name("user.contact");
-// Route::post("/person_loan",[UserController::class,"loan"])->name("user.loan");
-// Route::post("/person_loan",[UserController::class,"loan"])->name("user.loan.post");
 Route::get("/static/{name}",[UserController::class,"staticPages"])->name("user.pages.view");
 
 Route::match(["get","post"],"/master/forgot-password",[UserController::class,"forgotPasswordAdmin"])->name("admin.forgot.password");

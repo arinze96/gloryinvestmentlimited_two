@@ -1,4 +1,3 @@
-
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="description" content="">
@@ -13,8 +12,184 @@
 <link rel="stylesheet" href="{{ asset('front/css/plugin/animate.css') }}">
 <link rel="stylesheet" href="{{ asset('front/css/style.css') }}">
 <link rel="stylesheet" href="{{ asset('front/css/responsive.css') }}">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous">
+</script>
+<style>
+    nav {
+        float: right;
+        z-index: 25000;
+        position: static
+    }
 
+    .nav-itm {
+        style="background-color: #7cbf42"
+    }
 
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        float: left;
+        position: relative;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 0 20px;
+        line-height: 70px;
+        background: #ffffff;
+        color: #463f3f;
+        text-decoration: none;
+
+    }
+
+    nav ul li a:hover {
+        background: #f2f2f2;
+        color: #fb5958;
+    }
+
+    nav ul li a:not(:only-child):after {
+        padding-left: 4px;
+        content: ' ▾';
+    }
+
+    nav ul li ul li {
+        min-width: 190px;
+    }
+
+    nav ul li ul li a {
+        padding: 15px;
+        line-height: 20px;
+    }
+
+    .nav-dropdown {
+        position: absolute;
+        z-index: 1;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+        display: none;
+    }
+
+    .nav-mobile {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #fff;
+        height: 70px;
+        width: 70px;
+    }
+
+    @media only screen and (max-width: 800px) {
+        .nav-mobile {
+            display: block;
+        }
+
+        nav {
+            width: 100%;
+            padding: 70px 0 15px;
+        }
+
+        nav ul {
+            display: none;
+        }
+
+        nav ul li {
+            float: none;
+        }
+
+        nav ul li a {
+            padding: 15px;
+            line-height: 20px;
+        }
+
+        nav ul li ul li a {
+            padding-left: 30px;
+        }
+    }
+
+    #nav-toggle {
+        position: absolute;
+        left: 18px;
+        top: 22px;
+        cursor: pointer;
+        padding: 10px 35px 16px 0px;
+    }
+
+    #nav-toggle span,
+    #nav-toggle span:before,
+    #nav-toggle span:after {
+        cursor: pointer;
+        border-radius: 1px;
+        height: 5px;
+        width: 35px;
+        background: #463f3f;
+        position: absolute;
+        display: block;
+        content: '';
+        transition: all 300ms ease-in-out;
+    }
+
+    #nav-toggle span:before {
+        top: -10px;
+    }
+
+    #nav-toggle span:after {
+        bottom: -10px;
+    }
+
+    #nav-toggle.active span {
+        background-color: transparent;
+    }
+
+    #nav-toggle.active span:before,
+    #nav-toggle.active span:after {
+        top: 0;
+    }
+
+    #nav-toggle.active span:before {
+        transform: rotate(45deg);
+    }
+
+    #nav-toggle.active span:after {
+        transform: rotate(-45deg);
+    }
+
+    @media screen and (min-width: 800px) {
+        .nav-list {
+            display: block !important;
+        }
+    }
+
+    .navigation {
+        height: 90px;
+        background: #ffffff;
+    }
+
+    .nav-container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .brand {
+        position: absolute;
+        padding-left: 20px;
+        float: left;
+        line-height: 70px;
+        text-transform: uppercase;
+        font-size: 1.4em;
+    }
+
+    .brand a,
+    .brand a:visited {
+        color: #463f3f;
+        text-decoration: none;
+    }
+</style>
 <style>
     div.dropdown {
         position: relative;
@@ -64,11 +239,10 @@
         display: block;
     }
 </style>
-
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-  
+
     ul {
         list-style: none;
     }

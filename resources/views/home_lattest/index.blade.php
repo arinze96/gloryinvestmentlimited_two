@@ -3,7 +3,7 @@
 
 
 <head>
-    <title>Stareton Finance</title>
+    <title>Gloryinvestmentslimited</title>
     @include('include.#home_css')
     <script type="text/javascript">
         var duplicate_google_translate_counter = 0; //this stops google adding button multiple times
@@ -144,7 +144,7 @@
                                     <h6 style="color: black">The Online Financial investment Platform
                                     </h6>
                                     <p>
-                                        Stareton finance is a instant Financial investment Platform. Gooland is
+                                        Gloryinvestmentslimited is a instant Financial investment Platform. Gloryinvestmentslimited is
                                         a platform that offer access to a variety of different services such as
                                         cryptocurrency, real estate investment, Retirement account, Children accounts
                                         .Our mission is to offer our users easy and secure transactions and make the
@@ -252,7 +252,7 @@
                         <div class="icons"><i class="icon-Coin-Offering"></i></div>
                         <h3 class="crypto_solution_desc">Business Consulting</h3>
                         <h6 style="color: white; font-size: 10px">
-                            At stareton finance we are on daily standby for Business Consulting, and strategic
+                            At Gloryinvestmentslimited we are on daily standby for Business Consulting, and strategic
                             development endeaours. We are alway available 24/7
                         </h6>
                     </div>
@@ -261,7 +261,7 @@
                         <h3 class="crypto_solution_desc">Financial Data Analysis
                         </h3>
                         <h6 style="color: white; font-size: 10px">
-                            At stareton finance we are on daily standby for Business Consulting, and strategic
+                            At Gloryinvestmentslimited we are on daily standby for Business Consulting, and strategic
                             development endeaours. We are alway available 24/7
                         </h6>
                     </div>
@@ -717,7 +717,7 @@
                                 <h2 style="margin-bottom: 20px">EXCLUSIVE PARTNERSHIP</h2>
                                 <p>
                                     Corporate investors an individual investors are welcomed to partner with us.
-                                    Partner with Stareton Finance to benefit from our wealth of financial expertise,
+                                    Partner with Gloryinvestmentslimited to benefit from our wealth of financial expertise,
                                     world-class infrastructure, and outstanding support team. Our strategic approach to
                                     investing
                                     and wealth managment, coupled with our proven results, has contributed to our
@@ -725,7 +725,7 @@
                                     for reliabilty.
                                 </p>
                                 <p>
-                                    At Stareton Finance, we undertand that the basic needs of people will always be in
+                                    At Gloryinvestmentslimited, we undertand that the basic needs of people will always be in
                                     demand and we have
                                     ventured to welcome investors to partner with us exclusively by supporting all our
                                     growth effort as an organization
@@ -733,7 +733,7 @@
                                 </p>
                                 <h2 style="margin-bottom: 20px; margin-top: 40px">MANAGEMENT FEE</h2>
                                 <p>
-                                    The 10% Stareton Finance management charges is taken out from your earnings only on
+                                    The 10% Gloryinvestmentslimited management charges is taken out from your earnings only on
                                     withdrawals
                                 </p>
                                 <div class="col-lg-12" style="margin-bottom: 30px">

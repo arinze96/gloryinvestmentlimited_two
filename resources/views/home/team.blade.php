@@ -209,13 +209,13 @@
                     </div>
                     <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #e6f2ff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
-                        <img src="{{ asset('front/img/team6.jpeg') }}" alt="" style="height: 78%">
+                        <img src="{{ asset('front/img/team6.jpeg') }}" alt="" >
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Brandon Warren Owner and
                             Major Stakeholder</p>
                     </div>
                     <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #e6f2ff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
-                        <img src="{{ asset('front/img/team1.jpeg') }}" alt="" style="height: 78%">
+                        <img src="{{ asset('front/img/team1.jpeg') }}" alt="" >
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Russell Mellon Excecutive
                             vice president.</p>
                     </div>

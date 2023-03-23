@@ -37,13 +37,13 @@
                                         data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                                         aria-controls="collapseOne">
                                         Why does
-                                        Stareton Finance provides investment opportunities to third-party customers ?
+                                        Gloryinvestmentslimited provides investment opportunities to third-party customers ?
                                     </button>
                                 </h5>
                                 <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
                                     data-bs-parent="#accordionRental">
                                     <div class="accordion-body text-sm opacity-8">
-                                        Stareton Finance sees the popularization of online trading and the strengthening
+                                        Gloryinvestmentslimited sees the popularization of online trading and the strengthening
                                         of its business position in this competitive market as its primary goal. It is
                                         easy to understand that the more working capital is involved in the process of
                                         exchange transactions and the more people become interested in this business,
@@ -64,7 +64,7 @@
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionRental">
                                     <div class="accordion-body text-sm opacity-8">
-                                        Stareton Finance accepts funds from its customers and creates consolidated
+                                        Gloryinvestmentslimited accepts funds from its customers and creates consolidated
                                         financial flows of investment funds, carefully analyzing all aspects that may
                                         affect the conclusion of a particular exchange transaction. Making a profit, we
                                         divide it between clients in accordance with a fixed percentage of
@@ -116,7 +116,7 @@
                                     <button class="accordion-button border-bottom font-weight-bold" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="false"
                                         aria-controls="collapseFifth">
-                                        What exchange does Stareton Finance work with?
+                                        What exchange does Gloryinvestmentslimited work with?
                                     </button>
                                 </h5>
                                 <div id="collapseFifth" class="accordion-collapse collapse" aria-labelledby="headingFifth"
@@ -252,7 +252,7 @@
                                     <div class="accordion-body text-sm opacity-8">
                                         You can reach us through our live chat platform located at the bottom right of
                                         the website. You can also reach ud through our email address -
-                                        support@Stareton Finance.com
+                                        support@Gloryinvestmentslimited.com
                                     </div>
                                 </div>
                             </div>
