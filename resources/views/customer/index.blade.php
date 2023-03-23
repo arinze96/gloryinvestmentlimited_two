@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
 <head>
-    <title>Gloryinvestmentslimited</title>
+    <title>Staretonfinance</title>
     @include('include.c_css')
     <script>
         function myFunction() {
+            // Get the text field
             var copyText = document.getElementById("myInput");
+
+            // Select the text field
             copyText.select();
-            copyText.setSelectionRange(0, 99999);
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+
+            // Copy the text inside the text field
             navigator.clipboard.writeText(copyText.value);
+
+            // Alert the copied text
             alert("Copied the text: " + copyText.value);
         }
     </script>
+
 </head>
 
 <body class="g-sidenav-show bg-gradient-primary  bg-gray-100">
+
     <div class="loader"><i class="fa-solid fa-spinner"></i></div>
+
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
+
     @include('include.c_sidebar')
+
     <main class="main-content  position-relative max-height-vh-100 h-100 ">
+
         @include('include.c_header')
 
 
@@ -65,7 +80,29 @@
                         </div>
                     </a>
                 </div>
-            
+                {{-- <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4" style="margin-top: 20px;">
+                    <a href="{{ route('user.wallet.view') }}">
+                    <div class="card" style="background-color: #ffffff40!important; height: 100px">
+                        <div class="card-body p-3">
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="numbers">
+                                        <p style="color: white; font-size: 10px; font-weight: bold">
+                                            Wallet</p>
+                                            
+                                    </div>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <div
+                                        class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
+                                        <i class="ni ni-folder-17 text-lg opacity-10" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div> --}}
                 <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4" style="margin-top: 20px;">
                     <a href="{{ route('user.deposit.post') }}">
                         <div class="card" style="background-color: #ffffff40!important; height: 100px">
@@ -401,7 +438,7 @@
                                     <div class="d-flex flex-column h-100">
                                         <p class="mb-1 pt-2 text-bold">Built for winners</p>
                                         <h5 class="font-weight-bolder">Kickstart your journey</h5>
-                                        <p class="mb-5">At Gloryinvestmentslimited we prioritize your financial goals and
+                                        <p class="mb-5">At Staretonfinance we prioritize your financial goals and
                                             will do the due diligence to attain them</p>
                                         <a class="text-body text-sm font-weight-bold mb-0 icon-move-right mt-auto"
                                             href="javascript:;">
@@ -801,7 +838,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            @foreach ($withdrawals as $item => $data)
+                                            @foreach ($withdrawals as $key => $data)
                                                 <tr>
                                                     <td class="align-middle text-center text-sm">
                                                         {{ $key + 1 }}
@@ -879,7 +916,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            @foreach ($retirement as $item => $data)
+                                            @foreach ($retirement as $key => $data)
                                                 <tr>
                                                     <td class="align-middle text-center text-sm">
                                                         {{ $key + 1 }}
@@ -955,7 +992,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            @foreach ($childrenAccount as $item => $data)
+                                            @foreach ($childrenAccount as $key => $data)
                                                 <tr>
                                                     <td class="align-middle text-center text-sm">
                                                         {{ $key + 1 }}
@@ -1031,7 +1068,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            @foreach ($charities as $item => $data)
+                                            @foreach ($charities as $key => $data)
                                                 <tr>
                                                     <td class="align-middle text-center text-sm">
                                                         {{ $key + 1 }}
@@ -1106,7 +1143,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            @foreach ($allLoans as $item => $data)
+                                            @foreach ($allLoans as $key => $data)
                                                 <tr>
                                                     <td class="align-middle text-center text-sm">
                                                         {{ $key + 1 }}
@@ -1182,7 +1219,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            @foreach ($nfp as $item => $data)
+                                            @foreach ($nfp as $key => $data)
                                                 <tr>
                                                     <td class="align-middle text-center text-sm">
                                                         {{ $key + 1 }}
@@ -1227,7 +1264,7 @@
                                 </script>,
                                 made with <i class="fa fa-heart"></i> by
                                 <a href="https://staretontech.com/" class="font-weight-bold"
-                                    target="_blank">Gloryinvestmentslimited</a>
+                                    target="_blank">Staretonfinance</a>
                             </div>
                         </div>
                     </div>
