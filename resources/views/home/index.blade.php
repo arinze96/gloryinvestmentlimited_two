@@ -19,6 +19,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     @include('include.home_css')
+    <script type="text/javascript">
+        var duplicate_google_translate_counter = 0; //this stops google adding button multiple times
+
+        function googleTranslateElementInit() {
+            if (duplicate_google_translate_counter == 0) {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'en'
+                }, 'google_translate_element');
+            }
+            duplicate_google_translate_counter++;
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
 
     <script type="text/javascript">
         $(function() {
@@ -78,6 +92,8 @@
             </div>
         </div>
     </div> --}}
+    <div class="single_slide position-absolute">
+        <div id="google_translate_element" style="position:fixed;margin-top:10px; left:20px; bottom: 20px; z-index: 3000px"></div>
 
     <div class="page-heading2 header-text">
         <div class="container">
