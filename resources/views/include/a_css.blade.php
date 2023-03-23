@@ -17,9 +17,10 @@
 
   <!--Start of Tawk.to Script-->
 <!-- Smartsupp Live Chat script -->
+<!-- Smartsupp Live Chat script -->
 <script type="text/javascript">
   var _smartsupp = _smartsupp || {};
-  _smartsupp.key = '64286dd76d34ea27c6a38da9457f31014f42f8fb';
+  _smartsupp.key = 'c93cd559850688ea8425aa1ef51fcb2a783f51d1';
   window.smartsupp||(function(d) {
     var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
     s=d.getElementsByTagName('script')[0];c=d.createElement('script');
