@@ -92,8 +92,7 @@
             </div>
         </div>
     </div> --}}
-    <div class="single_slide position-absolute">
-        <div id="google_translate_element" style="position:fixed;margin-top:10px; left:20px; bottom: 20px; z-index: 3000px"></div>
+
 
     <div class="page-heading2 header-text">
         <div class="container">
@@ -111,6 +110,10 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="single_slide position-absolute">
+        <div id="google_translate_element"
+            style="position:fixed;margin-top:10px; left:20px; bottom: 20px; z-index: 3000px"></div>
     </div>
 
 
