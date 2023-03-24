@@ -47,6 +47,9 @@
             <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.6s">
                 <div class="footer-box">
                     <h4 class="lasthead">Social Media Handles</h4>
+                    <p>Email <a
+                        href="mailto:support@gloryinvestmentslimited.com"> <span>support@gloryinvestmentslimited.com</span></a>
+                </p>
                    
                     <div class="social-style">
                         <a href="https://www.facebook.com/profile.php?id=100078961167628&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
