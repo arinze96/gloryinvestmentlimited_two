@@ -28,7 +28,7 @@
                 <form class="login100-form validate-form p-l-55 p-r-55 p-t-178" method="POST"
                     action="{{ route('user.register.post') }}">
                     @csrf
-                    <span class="login100-form-title " style="background-color: #e5ad4b">
+                    <span class="login100-form-title " style="background-color: #7cbf42">
                         Sign Up
                     </span>
 
@@ -392,7 +392,7 @@
                     </div>
 
                     <div class="container-login100-form-btn ">
-                        <button class="login100-form-btn" style="background-color: #e5ad4b" type="submit"
+                        <button class="login100-form-btn" style="background-color: #7cbf42" type="submit"
                             id="submit">
                             Sign Up
                         </button>
