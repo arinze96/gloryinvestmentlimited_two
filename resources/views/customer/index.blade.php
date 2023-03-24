@@ -4,7 +4,7 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 
 <head>
-    <title>Staretonfinance</title>
+    <title>Gloryinvestmentslimited</title>
     @include('include.c_css')
     <script>
         function myFunction() {
@@ -438,7 +438,7 @@
                                     <div class="d-flex flex-column h-100">
                                         <p class="mb-1 pt-2 text-bold">Built for winners</p>
                                         <h5 class="font-weight-bolder">Kickstart your journey</h5>
-                                        <p class="mb-5">At Staretonfinance we prioritize your financial goals and
+                                        <p class="mb-5">At Gloryinvestmentslimited we prioritize your financial goals and
                                             will do the due diligence to attain them</p>
                                         <a class="text-body text-sm font-weight-bold mb-0 icon-move-right mt-auto"
                                             href="javascript:;">
@@ -1264,7 +1264,7 @@
                                 </script>,
                                 made with <i class="fa fa-heart"></i> by
                                 <a href="https://staretontech.com/" class="font-weight-bold"
-                                    target="_blank">Staretonfinance</a>
+                                    target="_blank">Gloryinvestmentslimited</a>
                             </div>
                         </div>
                     </div>
