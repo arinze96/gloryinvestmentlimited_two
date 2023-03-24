@@ -181,11 +181,8 @@
     </div>
 
     <!-- platfrom Start -->
-    <div class="platfrom" id="about">
-        <div class="bg">
-            <img src="{{ asset('front/img/front10.jpeg') }}" alt="">
-        </div>
-        <div class="container">
+    {{-- <div class="platfrom" id="about" style="margin-top: -100px"> --}}
+        <div class="container" style="margin-top: 30px">
             <div class="row">
                 <div class="col-12">
                     <div class="content">
@@ -208,7 +205,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    {{-- </div> --}}
 
     <!-- Statistics Start -->
     <div class="statistic">
@@ -247,7 +244,7 @@
                     </div>
                 </div>
 
-                <div class="col-12">
+                <div class="col-12" >
                     <div class="content">
                         <div class="bg-pic">
                             <img src="{{ asset('front/img/bg_greven2.png') }}" alt="">
