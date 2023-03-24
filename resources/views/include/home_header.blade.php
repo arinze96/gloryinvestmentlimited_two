@@ -2,11 +2,11 @@
     <div class="nav-container">
         <div class="brand">
             <a class="navbar-brand" href="#">
-                <img src="{{ asset('assets/gil.png') }}" class="logo" alt="logo" style="width: 100%; height: 70px">
+                <img src="{{ asset('assets/gil.png') }}" class="logo" alt="logo" style="width: 100px; height: 70px">
             </a>
         </div>
         <nav style="background-color: #7cbf42">
-            <div class="nav-mobile">
+            <div class="nav-mobile" style="background-color: #7cbf42">
                 <a id="nav-toggle" href="#!"><span></span></a>
             </div>
             <ul class="nav-list" style="background-color: #7cbf42">

@@ -101,7 +101,7 @@
                     <div class="banner-content  wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
                         <h3 class="subtitle" style="color: white">let’s us do the work for you</h3>
                         <h1 class="head" style="color: white">Cryptocurrency Investment</h1>
-                        <p class="text" style="color: #7cbf42">
+                        <p class="text" style="color: white">
                             Take the anxiety out of investing by letting us do the work for you
                         </p>
                         <button type="button" style="width: 60%; margin-top: 30px; background-color: #7cbf42"
