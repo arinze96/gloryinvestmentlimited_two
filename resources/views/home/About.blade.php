@@ -71,26 +71,22 @@
             </div>
         </div>
     </div>
-    <!-- Heading Ends Here -->
 
 
-    <!-- About Us Starts Here -->
     <div class="about-us">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="left-image">
-                        <img src="{{ asset('front/img/abt.jpeg') }}" alt="">
-                    </div>
+                    <video style="width: 100%; height: 50%" controls>
+                        <source src="{{ asset('front/videos/gil1.mp4') }}" type="video/mp4">
+                    </video>
                 </div>
                 <div class="col-md-6">
                     <div class="right-content">
                         <div class="section-heading">
                             <span>About Us</span>
-                            {{-- <h2>Background of our company</h2> --}}
                             <p>Gloryinvestmentlimited, Trading and Investments is a UK-based investment manager with
-                                offices in
-                                USA, Ukraine and Russia. We are a dynamic group whose main focus is to provide our
+                                offices in USA, Ukraine and Russia. We are a dynamic group whose main focus is to provide our
                                 clients with the best possible service, We apply a systematic and quantitative approach
                                 to investment management, with the aim of generating high-quality and diversifying alpha
                                 for its clients’ portfolios. We regularly update our platforms with the latest trading
@@ -100,8 +96,7 @@
                                 hidden charges or other fees.
 
                                 The company offers long term and short term investment opportunities,
-                                Gloryinvestmentlimited,
-                                Trading and Investments was established in 2002 and it initially began trading stocks,
+                                Gloryinvestmentlimited,Trading and Investments was established in 2002 and it initially began trading stocks,
                                 shares and bonds, it got involved in forex trading in 2008 and was among the pioneer
                                 traders of Crypto-currencies in the advent of Bitcoin in 2010. Gloryinvestmentslimited,
                                 Trading and Investments is currently managed by a senior team which has extensive
@@ -125,30 +120,30 @@
 
 
 
-        <!-- Footer Starts Here -->
-        @include('include.home_footer')
-        <!-- Footer Ends Here -->
+    <!-- Footer Starts Here -->
+    @include('include.home_footer')
+    <!-- Footer Ends Here -->
 
-        <!-- Bootstrap core JavaScript -->
-        <script src="{{ asset('new/vendor/jquery/jquery.min.js') }}"></script>
-        <script src="{{ asset('new/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{ asset('new/vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('new/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
-        <!-- Additional Scripts -->
-        <script src="{{ asset('front/new/assets/js/custom.js') }}"></script>
-        <script src="{{ asset('front/new/assets/js/owl.js') }}"></script>
-        <script src="{{ asset('front/new/assets/js/accordions.js') }}"></script>
-        @include('include.home_js')
+    <!-- Additional Scripts -->
+    <script src="{{ asset('front/new/assets/js/custom.js') }}"></script>
+    <script src="{{ asset('front/new/assets/js/owl.js') }}"></script>
+    <script src="{{ asset('front/new/assets/js/accordions.js') }}"></script>
+    @include('include.home_js')
 
-        <script language="text/Javascript">
-            cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
-            function clearField(t) { //declaring the array outside of the
-                if (!cleared[t.id]) { // function makes it static and global
-                    cleared[t.id] = 1; // you could use true and false, but that's more typing
-                    t.value = ''; // with more chance of typos
-                    t.style.color = '#fff';
-                }
+    <script language="text/Javascript">
+        cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+        function clearField(t) { //declaring the array outside of the
+            if (!cleared[t.id]) { // function makes it static and global
+                cleared[t.id] = 1; // you could use true and false, but that's more typing
+                t.value = ''; // with more chance of typos
+                t.style.color = '#fff';
             }
-        </script>
+        }
+    </script>
 
 </body>
 

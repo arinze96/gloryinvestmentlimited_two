@@ -99,11 +99,11 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-xl-7 col-lg-6">
                     <div class="banner-content  wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
-                        <h3 class="subtitle" style="color: white">Letting you do the work for you
+                        <h3 class="subtitle" style="color: white">Smart Investment through Excellent Investment
                         </h3>
-                        <h1 class="head" style="color: white">Cryptocurrency Investment</h1>
+                        <h1 class="head" style="color: white">Cryptocurrency Investment Limited</h1>
                         <p class="text" style="color: white">
-                            Take the anxiety out of investing by letting us do the work for you
+                            Creating a financial stable and vibrant world through excellent investment
                         </p>
                         <button type="button" style="width: 60%; margin-top: 30px; background-color: #7cbf42"
                             class="btn btn-secondary btn-lg btn-block">Get Started</button>

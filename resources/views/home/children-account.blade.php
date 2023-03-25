@@ -168,7 +168,7 @@
                         <div class="section-heading">
                             <h2>Gloryinvesmentlimited CHILDREN’S ACCOUNT FOR TEENS (16 AND ABOVE)</h2>
                             <p style="font-size: 18px">
-                                MT Teens account is a next level account for teenagers from 16years and above.
+                                GIL Teens account is a next level account for teenagers from 16years and above.
                             </p>
                             <br>
                             <p style="font-size: 18px">
