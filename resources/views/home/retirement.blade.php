@@ -53,7 +53,13 @@
 
 <body>
 
-    @include('include.home_header')
+    <div style="background-color: #c0c0c0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000000;">
+        @include('include.home_header')
+    </div>
 
     <div class="page-heading header-text">
         <div class="container">
@@ -135,7 +141,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-8 offset-md-2">
+                <difv class="col-md-8 offset-md-2">
                     <div class="section-heading">
                         <h2>Retirement Plans</h2>
                         <p>These plan helps you structure how much cash, stock, bonds, and real estate to invest in to
@@ -143,7 +149,7 @@
 
                         </p>
                     </div>
-                </div>
+                </difv>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="pricing-item">
                         <h4>Tier 1</h4>

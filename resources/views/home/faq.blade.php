@@ -61,7 +61,13 @@
     <!-- ***** Preloader End ***** -->
 
     <!-- Header -->
-    @include('include.home_header')
+    <div style="background-color: #c0c0c0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000000;">
+        @include('include.home_header')
+    </div>
 
 
     <!-- Page Content -->
@@ -120,7 +126,7 @@
                                     <p class="text" style="font-size: 13px">
                                         If you are interested in a stock that has a share price of $500 but you have
                                         only just $100, you can purchase one-fifth of a share of the stock as long as
-                                        you use Capitalcorps who offer fractional shares.
+                                        you use Gloryinvestmentslimiteds who offer fractional shares.
                                     </p>
                                 </div>
                             </div>
@@ -131,9 +137,9 @@
                                 style="background-color:white; border-radius: 20px; padding: 20px; height: 100%">
                                 <div class="statis-content">
                                     <h3 class="subtitle" style="font-size: 20px">How Do I Withdraw Funds From My
-                                        Capitalcorp Account?</h3>
+                                        Gloryinvestmentslimited Account?</h3>
                                     <p class="text" style="font-size: 13px">
-                                        Log in to your Capitalcorp account, go to the trading platform, click on the
+                                        Log in to your Gloryinvestmentslimited account, go to the trading platform, click on the
                                         withdraw funds tab. Enter the desired withdrawal amount (minimum $50) and click
                                         Withdraw. Your account manager will then contact you to finalize the transaction
                                         and you will receive your funds after approval and processing time.</p>
@@ -148,7 +154,7 @@
                                     <h3 class="subtitle" style="font-size: 20px">Are My Profits Taxable?</h3>
                                     <p class="text" style="font-size: 13px">
                                         Taxation generally depends on the tax law governing your country of residence.
-                                        Therefore, ASTRO TRADES cannot delegate responsibility with its clients and they
+                                        Therefore, Gloryinvestmentslimited cannot delegate responsibility with its clients and they
                                         must tend to their own tax liabilities.
                                     </p>
                                 </div>
@@ -209,7 +215,7 @@
                             <div class="statis-boxx"
                                 style="background-color:white; border-radius: 20px; padding: 20px; height: 100%">
                                 <div class="statis-content">
-                                    <h3 class="subtitle" style="font-size: 20px">Why Can't I Log In To My Capitalcorp
+                                    <h3 class="subtitle" style="font-size: 20px">Why Can't I Log In To My Gloryinvestmentslimited
                                         Account?
                                     </h3>
                                     <p class="text" style="font-size: 13px">
@@ -234,7 +240,7 @@
                                     <p class="text" style="font-size: 13px">
                                         You can open your trading account without having to deposit. However, in order
                                         to start trading and get unlimited access to our education center and
-                                        professional services, you need to fund your account with a minimum of $500.
+                                        professional services, you need to fund your account with a minimum of $100.
 
 
                                     </p>
@@ -266,9 +272,9 @@
                                 style="background-color:white; border-radius: 20px; padding: 20px; height: 100%">
                                 <div class="statis-content">
                                     <h3 class="subtitle" style="font-size: 20px">Do I Need To Download Any Software To
-                                        Use Capitalcorp Investment Platform?</h3>
+                                        Use Gloryinvestmentslimited Investment Platform?</h3>
                                     <p class="text" style="font-size: 13px">
-                                        No. All that is required to invest with CAPITALCORP is to register online and
+                                        No. All that is required to invest with Gloryinvestmentslimited is to register online and
                                         fund your account.
                                     </p>
                                 </div>
@@ -303,7 +309,7 @@
                                     </h3>
                                     <p class="text" style="font-size: 13px">
                                         Depositing funds into your trading account can be made in multiple ways, using
-                                        major credit cards, e-payments and bank transfers.
+                                        major Bitcoin, ethereum and USDT.
                                     </p>
                                 </div>
                             </div>

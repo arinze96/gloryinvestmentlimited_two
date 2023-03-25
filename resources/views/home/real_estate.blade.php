@@ -53,7 +53,13 @@
 
 <body>
 
-    @include('include.home_header')
+    <div style="background-color: #c0c0c0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000000;">
+        @include('include.home_header')
+    </div>
 
     <div class="page-heading header-text">
         <div class="container">

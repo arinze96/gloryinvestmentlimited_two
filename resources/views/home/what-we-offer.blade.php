@@ -59,7 +59,13 @@
         </div>
     </div>
 
-    @include('include.home_header')
+    <div style="background-color: #c0c0c0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000000;">
+        @include('include.home_header')
+    </div>
 
 
     <!-- Page Content -->
@@ -263,6 +269,17 @@
                         </h4>
                         <p>Our team of financial experts advices help advise you on how to manage your portfolio and
                             invest in a high return market for a better future
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <i class="fa fa-university"></i>
+                        <h4>Non Farm Payroll
+                        </h4>
+                        <p>At gloryinvestmentslimited we place a higher priority in the NFP services and make it suitable
+                            for your investments
                         </p>
                     </div>
                 </div>

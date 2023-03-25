@@ -53,7 +53,13 @@
 
 <body>
 
-    @include('include.home_header')
+    <div style="background-color: #c0c0c0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000000;">
+        @include('include.home_header')
+    </div>
 
     <div class="page-heading header-text">
         <div class="container">
@@ -97,7 +103,7 @@
                                 Gloryinvestmentlimited,
                                 Trading and Investments was established in 2002 and it initially began trading stocks,
                                 shares and bonds, it got involved in forex trading in 2008 and was among the pioneer
-                                traders of Crypto-currencies in the advent of Bitcoin in 2010. Bainvest Consulting,
+                                traders of Crypto-currencies in the advent of Bitcoin in 2010. Gloryinvestmentslimited,
                                 Trading and Investments is currently managed by a senior team which has extensive
                                 experience in the development and implementation of systematic investment strategies.
                                 Gloryinvestmentlimited, Trading and Investments directors, together with the company’s

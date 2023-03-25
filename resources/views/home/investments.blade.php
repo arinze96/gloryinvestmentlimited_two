@@ -54,7 +54,13 @@
 
 <body>
 
-    @include('include.home_header')
+    <div style="background-color: #c0c0c0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000000;">
+        @include('include.home_header')
+    </div>
 
     <div class="pricing-section">
         <div class="background-image-pricing">
@@ -63,7 +69,7 @@
             <div class="row">
                 <div class="col-md-8 offset-md-2">
                     <div class="section-heading">
-                        <h2>Retirement Plans</h2>
+                        <h2>Investment Plans</h2>
                         <p>These plan helps you structure how much cash, stock, bonds, and real estate to invest in to
                             your retirement funds
 
@@ -80,7 +86,7 @@
                         <div class="dev"></div>
                         <ul>
                             <li style="text-align: center">Maximum amount: $9,999</li>
-                            <li style="text-align: center">Daily ROI: 2.5%</li>
+                            <li style="text-align: center">Weekly ROI: 2.5%</li>
                             <li style="text-align: center">Duration: 52 wks</li>
                             <li style="text-align: center">Referral Commission: 10%</li>
                             <li style="text-align: center">Security Management</li>
@@ -119,7 +125,7 @@
                         <ul>
                             <li style="text-align: center">Maximum amount: $499,999</li>
                             <li style="text-align: center">Weekly ROI: 3.5%</li>
-                            <li style="text-align: center">Duration: 365 days</li>
+                            <li style="text-align: center">Duration: 52 weeks</li>
                             <li style="text-align: center">Referral Commission: 15%</li>
                             <li style="text-align: center">Security Management</li>
                             <li style="text-align: center">24/7 Support</li>
@@ -131,14 +137,14 @@
                     <div class="pricing-item">
                         <h4>Tier 4</h4>
                         <div class="price price-gradient">
-                            <h6>$100,000</h6>
+                            <h6>$500,000</h6>
                             <span>monthly</span>
                         </div>
                         <div class="dev"></div>
                         <ul>
                             <li style="text-align: center">Maximum amount: $1,000,000</li>
-                            <li style="text-align: center">Daily ROI: 3.5%</li>
-                            <li style="text-align: center">Duration: 52 wks</li>
+                            <li style="text-align: center">Weekly ROI: 4%</li>
+                            <li style="text-align: center">Duration: 52 weeks</li>
                             <li style="text-align: center">Referral Commission: 15%</li>
                             <li style="text-align: center">Security Management</li>
                             <li style="text-align: center">24/7 Support</li>

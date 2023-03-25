@@ -268,6 +268,13 @@ class UserController extends Controller
         return view('home.home');
     }
 
+    public function certificates(Request $request)
+    {
+        return view('home.certificates');
+    }
+
+    
+
     public function childrenaccount(Request $request)
     {
         return view('home.children-account');

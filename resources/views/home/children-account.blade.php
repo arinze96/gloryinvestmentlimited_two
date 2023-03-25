@@ -53,14 +53,20 @@
 
 <body>
 
-    @include('include.home_header')
+    <div style="background-color: #c0c0c0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000000;">
+        @include('include.home_header')
+    </div>
 
     <div class="page-heading header-text">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <h1>Children Account</h1>
-                    <p><a href="{{ route('app.home') }}">Home</a> / <span>Children Account</span></p>
+                    <p style="font-size: 18px"><a href="{{ route('app.home') }}">Home</a> / <span>Children Account</span></p>
                 </div>
             </div>
         </div>
@@ -77,24 +83,25 @@
                 <div class="col-md-6">
                     <div class="right-content">
                         <div class="section-heading">
-                            {{-- <h2>Background of our company</h2> --}}
-                            <p>As a parent, We want the best for our kids. We want to do everything Possible to set them
+                            <p style="font-size: 18px">As a parent, We want the best for our kids. We want to do everything Possible to set them
                                 up for success.
                             </p>
                             <br>
-                            <p>
-                                We at Gloryinvesmentlimited have spoken with many parents and grandparents who have one simple
+                            <p style="font-size: 18px">
+                                We at Gloryinvesmentlimited have spoken with many parents and grandparents who have one
+                                simple
                                 question: How can I invest in my child or grandchild’s future? Knowing the power of
                                 compound interest, some couple wrote us that they wanted to kick-start their son’s
                                 retirement savings. Others just want to help their kids get a college diploma without
                                 taking on any debt.
                             </p>
                             <br>
-                            <p>
+                            <p style="font-size: 18px">
                                 Those are great concerns to have, so give yourself a high five! Whether “Junior” is
                                 still crawling around the living room floor or getting ready to graduate from high
-                                school, we got you covered, you can secure and invest in their future. The Monetary
-                                Trades Children’s Account is a unique investments account designed to allow parents
+                                school, we got you covered, you can secure and invest in their future. The
+                                Gloryinvestmentslimited Children’s Account is a unique investments account designed to
+                                allow parents
                                 invest then save for their children’s future and teach them about savings/investments
                                 from a tender age. The account is modeled in two tiers for young children and teens with
                                 an overarching objective of making savings fun for them and teaching them financial
@@ -115,23 +122,25 @@
                     <div class="right-content">
                         <div class="section-heading">
                             <h2>Gloryinvesmentlimited CHILDREN’S ACCOUNT(0-15)</h2>
-                            <p>
-                                BGC account is modeled in two tiers for young children and teens with an overarching objective of making savings fun for them and teaching them financial discipline.
+                            <p style="font-size: 18px">
+                                BGC account is modeled in two tiers for young children and teens with an overarching
+                                objective of making savings fun for them and teaching them financial discipline.
                             </p>
                             <br>
-                            <p>
+                            <p style="font-size: 18px">
                                 An account specifically for children between the ages of 0-15yrs
                             </p>
                             <br>
-                            <p>
-                                ROI rate at 150% per annum (withdrawal once a year and only if there are emergency needs)
+                            <p style="font-size: 18px">
+                                ROI rate at 150% per annum (withdrawal once a year and only if there are emergency
+                                needs)
                             </p>
                             <br>
-                            <p>
+                            <p style="font-size: 18px">
                                 Zero account opening balance
                             </p>
                             <br>
-                            <p>
+                            <p style="font-size: 18px">
                                 Minimum Investment of $5,000
                             </p>
                         </div>
@@ -158,25 +167,22 @@
                     <div class="right-content">
                         <div class="section-heading">
                             <h2>Gloryinvesmentlimited CHILDREN’S ACCOUNT FOR TEENS (16 AND ABOVE)</h2>
-                            <p>
+                            <p style="font-size: 18px">
                                 MT Teens account is a next level account for teenagers from 16years and above.
                             </p>
                             <br>
-                            <p>
+                            <p style="font-size: 18px">
                                 An account specifically for children between the ages of 16-Above
                             </p>
                             <br>
-                            <p>
-                                Interest rate at 200%( withdraw twice a year and more only if they are emergency needs) 
+                            <p style="font-size: 18px">
+                                Interest rate at 200%( withdraw twice a year and more only if they are emergency needs)
                             </p>
                             <br>
-                            <p>
+                            <p style="font-size: 18px">
                                 Zero account opening balance
                             </p>
                             <br>
-                            <p>
-                                Minimum Investment of $5,000
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -192,7 +198,7 @@
                 <div class="col-md-8 offset-md-2">
                     <div class="section-heading">
                         <h2>Children Plans</h2>
-                        <p>These plan helps you structure how much cash, stock, bonds, and real estate to invest in to
+                        <p style="font-size: 18px">These plan helps you structure how much cash, stock, bonds, and real estate to invest in to
                             your children account
 
                         </p>

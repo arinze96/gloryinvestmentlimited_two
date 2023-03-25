@@ -53,7 +53,13 @@
 
 <body>
 
-    @include('include.home_header')
+    <div style="background-color: #c0c0c0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000000;">
+        @include('include.home_header')
+    </div>
 
     <div class="page-heading header-text">
         <div class="container">
@@ -77,7 +83,7 @@
                 <div class="col-md-6">
                     <div class="right-content">
                         <div class="section-heading">
-                            <p>
+                            <p style="font-size: 18px">
                                 Our work would not be possible without you: global citizens who want to make positive,
                                 lasting change in children’s lives. We are grateful to each and every one of you. We
                                 partner with corporations, foundations, individual philanthropists, school groups, and
@@ -107,7 +113,7 @@
                 <div class="col-md-6">
                     <div class="right-content">
                         <div class="section-heading">
-                            <p>
+                            <p style="font-size: 18px">
                                 From the moment you invest, your dollars are hard at work. When you invest with
                                 Gloryinvesmentlimited, you are investing with a partner, not just a broker. Other broker
                                 platforms charge you unnecessary middleman fees. Our key differentiator is that we are a
@@ -131,59 +137,24 @@
         </div>
     </div>
 
-    <div class="about-us">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="left-image">
-                        <img src="{{ asset('front/img/rt3.jpeg') }}" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="right-content">
-                        <div class="section-heading">
-                            <p>
-                                The GloryinvestmentlimitedGrowth REIT is designed to be a long-­term investment and is
-                                inherently liquid in nature. It has a 2-year projected term. We aim to invest in
-                                projects that can be sold within approximately two years. We maintain several
-                                cash-flowing properties in the portfolio, generating revenue from rents. When market
-                                conditions are suitable for an advantageous liquidation event, we sell the assets at
-                                which point investors will receive their principal and returns back. Our team shares the
-                                same vision and we have the experience. We have the team, the platform and the
-                                technology to make it happen and nothing’s going to stop us from bringing
-                                wealth-building opportunities to the everyday investor.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About Us Ends Here -->
- 
 
-
-
-    <!-- Footer Starts Here -->
     @include('include.home_footer')
-    <!-- Footer Ends Here -->
 
-    <!-- Bootstrap core JavaScript -->
     <script src="{{ asset('new/vendor/jquery/jquery.min.js') }}"></script>
     <script src="{{ asset('new/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
-    <!-- Additional Scripts -->
     <script src="{{ asset('front/new/assets/js/custom.js') }}"></script>
     <script src="{{ asset('front/new/assets/js/owl.js') }}"></script>
     <script src="{{ asset('front/new/assets/js/accordions.js') }}"></script>
     @include('include.home_js')
 
     <script language="text/Javascript">
-        cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
-        function clearField(t) { //declaring the array outside of the
-            if (!cleared[t.id]) { // function makes it static and global
-                cleared[t.id] = 1; // you could use true and false, but that's more typing
-                t.value = ''; // with more chance of typos
+        cleared[0] = cleared[1] = cleared[2] = 0;
+
+        function clearField(t) {
+            if (!cleared[t.id]) {
+                cleared[t.id] = 1;
+                t.value = '';
                 t.style.color = '#fff';
             }
         }

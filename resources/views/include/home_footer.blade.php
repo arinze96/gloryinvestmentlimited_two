@@ -4,7 +4,7 @@
             <div class="col-12 wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.2s">
                 <div class="top-footer">
                     <div class="logo">
-                        <img src="{{ asset('assets/gil.png') }}" class="logo" alt="logo" style="width: 100%; height: 70px">
+                        <img src="{{ asset('assets/gil.png') }}" class="logo" alt="logo" style="width: 100px; height: 70px">
                     </div>
                     <a href="#" class="button-1">Get In touch </a>
                 </div>
@@ -31,7 +31,7 @@
                     <ul class="footer-link">
                         <li><a href="{{ route('about') }}">About Us</a></li>
                         <li><a href="{{ route('faq') }}">FAQ</a></li>
-                        <li><a href="{{ route('user.contact') }}">Contact</a></li>
+                        {{-- <li><a href="{{ route('user.contact') }}">Contact</a></li> --}}
                     </ul>
                 </div>
             </div>

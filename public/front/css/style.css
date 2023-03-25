@@ -982,8 +982,8 @@ p.text {
 /* scurity Start */
 .scurity {
   padding: 116px 0px 0px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#c2c7ff), to(#fff));
-  background: linear-gradient(0deg, #c2c7ff 0%, #fff 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#fff), to(#fff));
+  background: linear-gradient(0deg, #fff 0%, #fff 100%);
   position: relative;
 }
 .scurity .icon-one {

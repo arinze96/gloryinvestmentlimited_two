@@ -64,7 +64,13 @@
     <!-- ***** Preloader End ***** -->
 
     <!-- Header -->
-    @include('include.home_header')
+    <div style="background-color: #c0c0c0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000000;">
+        @include('include.home_header')
+    </div>
 
     {{-- <header class="">
       <nav class="navbar navbar-expand-lg">
@@ -122,15 +128,15 @@
 
     <!-- Team Starts Here -->
     <div class="scurity" style="margin-bottom: 50px">
-        <div class="icon-one">
+        {{-- <div class="icon-one">
             <img src="{{ asset('front/img/scurity-vector-1.png') }}" alt="">
-        </div>
-        <div class="icon-two">
+        </div> --}}
+        {{-- <div class="icon-two">
             <img src="assets/img/scurity-vector-2.png" alt="">
-        </div>
+        </div> --}}
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-10 text-center wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.2s">
+                <div class="col-lg-10 text-center">
                     <div class="section-head">
                         <h4 class="lasthead">Our Team</h4>
                         <h3 class="title">Group Corporate Overview</h3>
@@ -156,18 +162,18 @@
                             their customers; the ever-decreasing interests due to annual inflations, zero anonymity, and
                             exclusion of certain sections of the society, all irked Brandon Warren. The outlined
                             frustration fuelled an idea that shall soon change the world! Brandon Warren’s idea, the
-                            push behind Bainvest Consulting, Trading and Investments, is giving everyone the means to
+                            push behind Gloryinvestmentslimited, Trading and Investments, is giving everyone the means to
                             generate enough passive income to subsist on. The idea, however, has thrust Brandon Warren
                             on a collision course with the banks; one that demanded he gets assistance before
                             proceeding. he asked his old friend Lambert Frescobaldi to help his found an equalized
                             financial system, the opposing force that offers the solutions to fight the banks’ elfish
                             regimes. Lambert Frescobaldi quickly recognized the potential of the idea and its many
                             benefits and agreed to join Brandon Warren. Both retired from the bank towards the end of
-                            2014 and started working on Bainvest Consulting, Trading and Investments. Their vision is to
+                            2014 and started working on Gloryinvestmentslimited, Trading and Investments. Their vision is to
                             change the world. A vision to offer people equal earning possibilities. To provide an
                             opportunity for people to simply earn money without much effort. Their vision sees everybody
                             – a family like Brandon Warren’s included, having the opportunity to afford the luxury.
-                            There is the vision that drives Bainvest Consulting, Trading and Investments!
+                            There is the vision that drives Gloryinvestmentslimited, Trading and Investments!
                         </p>
                         <h3 class="title">Brandon Warren</h3>
                         <p>CEO Gloryinvestmentlimited</p>

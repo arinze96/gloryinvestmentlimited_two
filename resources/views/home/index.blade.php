@@ -168,7 +168,7 @@
 
     <div class="about-us">
         <div class="container">
-            <h1 style="text-align: center">About Us</h1>
+            <h1 style="text-align: center">WHo We are</h1>
             <div class="row">
                 <div class="col-md-12">
                     <video style="width: 100%; height: 100%" controls>
@@ -190,7 +190,7 @@
                             <div class="col-lg-9 text-center wow fadeInUp" data-wow-duration="0.3s"
                                 data-wow-delay="0.3s">
                                 <div class="section-head">
-                                    <h4 class="lasthead">About us</h4>
+                                    <h4 class="lasthead">Our Professional Services</h4>
                                     <h2 class="title">The Online Financial investment Platform</h2>
                                     <p class="text">
                                         Glory Investment Limited is an instant Financial Investment platform that offers
@@ -238,18 +238,17 @@
                             <img src="{{ asset('front/img/offer-icon-3.png') }}" alt="">
                         </div>
                         <p class="text">
-                            24/7 <br>
                             LIVE CHART
                         </p>
                     </div>
                 </div>
 
-                <div class="col-12" >
+                <div class="col-12" style="margin-top: -100px" >
                     <div class="content">
-                        <div class="bg-pic">
+                        {{-- <div class="bg-pic">
                             <img src="{{ asset('front/img/bg_greven2.png') }}" alt="">
-                        </div>
-                        <div class="section-head text-center wow fadeInUp" data-wow-duration="0.3s"
+                        </div> --}}
+                        {{-- <div class="section-head text-center wow fadeInUp" data-wow-duration="0.3s"
                             data-wow-delay="0.2s">
                             <h4 class="lasthead" style="color:#7cc043">Our</h4>
                             <h2 class="title" style="color:#7cc043">Professional Services</h2>
@@ -259,7 +258,7 @@
                                 others. Our mission is to offer the public simple and secure investment with stress-free
                                 process which suit each investor.
                             </p>
-                        </div>
+                        </div> --}}
 
                         <div class="row justify-content-center">
                             <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-duration="0.3s"
@@ -384,7 +383,7 @@
                         </div>
                         <div class="section-head text-center wow fadeInUp" data-wow-duration="0.3s"
                             data-wow-delay="0.2s">
-                            <h4 class="lasthead" style="color:#7cc043">SMART INVESTMENT AT YOUR DOORSTEP.</h4>
+                            <h4 class="lasthead" style="color:#7cc043">SMART INVESTMENT THROUGH EXCELLENT INVESTMENT.</h4>
                             <h2 class="title" style="color:#7cc043">GLORY INVESTMENT LIMITED</h2>
                             <p class="text" style="color:#7cc043">
                                 CREATING A FINANCIAL STABLE AND VIBRANT WORLD THROUGH EXCELLENT INVESTMENT.
@@ -401,7 +400,7 @@
                             <div class="right-content">
                                 <div class="section-heading">
                                     <h1>The Insight story</h1>
-                                    <p>
+                                    <p style="font-size: 18px">
                                         By the end of 2016, more than 700 digital currencies were introduced and
                                         co-existed. Bearing that in mind, it came as no surprise that during 2017 the
                                         total trading volume of the digital currency market has reached a very high
@@ -428,7 +427,7 @@
     </div>
 
     <!-- Scurity Start -->
-    <div class="scurity">
+    {{-- <div class="scurity">
         <div class="icon-one">
             <img src="{{ asset('front/img/scurity-vector-1.png') }}" alt="">
         </div>
@@ -492,7 +491,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <!-- testomonial Start -->
     <section class="testimonial">
