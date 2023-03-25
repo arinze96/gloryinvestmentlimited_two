@@ -87,7 +87,7 @@
                         <ul>
                             <li style="text-align: center">Maximum amount: $9,999</li>
                             <li style="text-align: center">Weekly ROI: 2.5%</li>
-                            <li style="text-align: center">Duration: 52 wks</li>
+                            <li style="text-align: center">Duration: 52 weeks</li>
                             <li style="text-align: center">Referral Commission: 10%</li>
                             <li style="text-align: center">Security Management</li>
                             <li style="text-align: center">24/7 Support</li>
@@ -106,7 +106,7 @@
                         <ul>
                             <li style="text-align: center">Maximum amount: $99,999</li>
                             <li style="text-align: center">Weekly ROI: 3%</li>
-                            <li style="text-align: center">Duration: 52 wks</li>
+                            <li style="text-align: center">Duration: 52 weeks</li>
                             <li style="text-align: center">Referral Commission: 10%</li>
                             <li style="text-align: center">Security Management</li>
                             <li style="text-align: center">24/7 Support</li>

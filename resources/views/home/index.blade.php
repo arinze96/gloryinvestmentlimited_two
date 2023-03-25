@@ -239,7 +239,7 @@
                             <img src="{{ asset('front/img/offer-icon-3.png') }}" alt="">
                         </div>
                         <p class="text">
-                            LIVE CHART
+                            LIVE CHAT
                         </p>
                     </div>
                 </div>
