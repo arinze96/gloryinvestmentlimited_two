@@ -151,7 +151,7 @@
                             education and made his hungrier for success and dedicated to the cause of uplifting his
                             family! Brandon Warren graduated from the university and started working in the banking
                             industry as an asset management executive. While there, he met his colleague Lambert
-                            Frescobaldi. 
+                            Frescobaldi.
                         </p>
                         <br>
                         <p style="text-align: left; line-spacing: 40px">
@@ -162,14 +162,16 @@
                             their customers; the ever-decreasing interests due to annual inflations, zero anonymity, and
                             exclusion of certain sections of the society, all irked Brandon Warren. The outlined
                             frustration fuelled an idea that shall soon change the world! Brandon Warren’s idea, the
-                            push behind Gloryinvestmentslimited, Trading and Investments, is giving everyone the means to
+                            push behind Gloryinvestmentslimited, Trading and Investments, is giving everyone the means
+                            to
                             generate enough passive income to subsist on. The idea, however, has thrust Brandon Warren
                             on a collision course with the banks; one that demanded he gets assistance before
                             proceeding. he asked his old friend Lambert Frescobaldi to help his found an equalized
                             financial system, the opposing force that offers the solutions to fight the banks’ elfish
                             regimes. Lambert Frescobaldi quickly recognized the potential of the idea and its many
                             benefits and agreed to join Brandon Warren. Both retired from the bank towards the end of
-                            2014 and started working on Gloryinvestmentslimited, Trading and Investments. Their vision is to
+                            2014 and started working on Gloryinvestmentslimited, Trading and Investments. Their vision
+                            is to
                             change the world. A vision to offer people equal earning possibilities. To provide an
                             opportunity for people to simply earn money without much effort. Their vision sees everybody
                             – a family like Brandon Warren’s included, having the opportunity to afford the luxury.
@@ -177,51 +179,50 @@
                         </p>
                         <h3 class="title">Brandon Warren</h3>
                         <p>CEO Gloryinvestmentlimited</p>
-
                     </div>
                 </div>
             </div>
             <div class="box">
                 <div class="row justify-content-center" style="justify-content: space-between">
-                    <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #e6f2ff solid; margin-bottom: 20px"
+                    <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #fff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
                         <img src="{{ asset('front/img/team7.jpeg') }}" alt="">
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Franklin Nussbaum Staff
                             Manager Investment</p>
                     </div>
-                    <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #e6f2ff solid; margin-bottom: 20px"
+                    <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #fff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
                         <img src="{{ asset('front/img/team2.jpeg') }}" alt="">
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Aamos Sutinen IT expert
                             and specialist</p>
                     </div>
-                    <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #e6f2ff solid; margin-bottom: 20px"
+                    <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #fff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
                         <img src="{{ asset('front/img/team3.jpeg') }}" alt="">
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Naome Balogh Staff Manager
                             Investment</p>
                     </div>
-                    <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #e6f2ff solid; margin-bottom: 20px"
+                    <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #fff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
                         <img src="{{ asset('front/img/team4.jpeg') }}" alt="">
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Jasmine Bradshaw
                             administrator and Staff manager investment</p>
                     </div>
-                    <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #e6f2ff solid; margin-bottom: 20px"
+                    <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #fff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
                         <img src="{{ asset('front/img/team5.jpeg') }}" alt="">
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Stephanie Morales Chief
                             executive officer and president</p>
                     </div>
-                    <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #e6f2ff solid; margin-bottom: 20px"
+                    <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #fff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
-                        <img src="{{ asset('front/img/team6.jpeg') }}" alt="" >
+                        <img src="{{ asset('front/img/team6.jpeg') }}" alt="">
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Brandon Warren Owner and
                             Major Stakeholder</p>
                     </div>
-                    <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #e6f2ff solid; margin-bottom: 20px"
+                    <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #fff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
-                        <img src="{{ asset('front/img/team1.jpeg') }}" alt="" >
+                        <img src="{{ asset('front/img/team1.jpeg') }}" alt="">
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Russell Mellon Excecutive
                             vice president.</p>
                     </div>

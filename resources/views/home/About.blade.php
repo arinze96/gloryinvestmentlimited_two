@@ -86,7 +86,8 @@
                         <div class="section-heading">
                             <span>About Us</span>
                             <p>Gloryinvestmentlimited, Trading and Investments is a UK-based investment manager with
-                                offices in USA, Ukraine and Russia. We are a dynamic group whose main focus is to provide our
+                                offices in USA, United Kingdom. We are a dynamic group whose main focus is to
+                                provide our
                                 clients with the best possible service, We apply a systematic and quantitative approach
                                 to investment management, with the aim of generating high-quality and diversifying alpha
                                 for its clients’ portfolios. We regularly update our platforms with the latest trading
@@ -96,7 +97,8 @@
                                 hidden charges or other fees.
 
                                 The company offers long term and short term investment opportunities,
-                                Gloryinvestmentlimited,Trading and Investments was established in 2002 and it initially began trading stocks,
+                                Gloryinvestmentlimited,Trading and Investments was established in 2002 and it initially
+                                began trading stocks,
                                 shares and bonds, it got involved in forex trading in 2008 and was among the pioneer
                                 traders of Crypto-currencies in the advent of Bitcoin in 2010. Gloryinvestmentslimited,
                                 Trading and Investments is currently managed by a senior team which has extensive
@@ -110,36 +112,28 @@
                                 emphasises strong corporate governance and the provision of first class investor service
                                 to a client base which includes many of the world’s leading institutional investors.</p>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About Us Ends Here -->
 
-
-
-    <!-- Footer Starts Here -->
     @include('include.home_footer')
-    <!-- Footer Ends Here -->
-
-    <!-- Bootstrap core JavaScript -->
     <script src="{{ asset('new/vendor/jquery/jquery.min.js') }}"></script>
     <script src="{{ asset('new/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
-    <!-- Additional Scripts -->
     <script src="{{ asset('front/new/assets/js/custom.js') }}"></script>
     <script src="{{ asset('front/new/assets/js/owl.js') }}"></script>
     <script src="{{ asset('front/new/assets/js/accordions.js') }}"></script>
     @include('include.home_js')
 
     <script language="text/Javascript">
-        cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
-        function clearField(t) { //declaring the array outside of the
-            if (!cleared[t.id]) { // function makes it static and global
-                cleared[t.id] = 1; // you could use true and false, but that's more typing
-                t.value = ''; // with more chance of typos
+        cleared[0] = cleared[1] = cleared[2] = 0;
+
+        function clearField(t) {
+            if (!cleared[t.id]) {
+                cleared[t.id] = 1;
+                t.value = '';
                 t.style.color = '#fff';
             }
         }

@@ -99,7 +99,7 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-xl-7 col-lg-6">
                     <div class="banner-content  wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
-                        <h3 class="subtitle" style="color: white">Smart Investment through Excellent Investment
+                        <h3 class="subtitle" style="color: white">Smart Investment at your door step
                         </h3>
                         <h1 class="head" style="color: white">Cryptocurrency Investment Limited</h1>
                         <p class="text" style="color: white">
@@ -183,29 +183,28 @@
 
     <!-- platfrom Start -->
     {{-- <div class="platfrom" id="about" style="margin-top: -100px"> --}}
-        <div class="container" style="margin-top: 30px">
-            <div class="row">
-                <div class="col-12">
-                    <div class="content">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-9 text-center wow fadeInUp" data-wow-duration="0.3s"
-                                data-wow-delay="0.3s">
-                                <div class="section-head">
-                                    <h4 class="lasthead">Our Professional Services</h4>
-                                    <h2 class="title">The Online Financial investment Platform</h2>
-                                    <p class="text">
-                                        Glory Investment Limited is an instant Financial Investment platform that offers
-                                        a wide range of different services, such as Cryptocurrency, Real Estate,
-                                        Retirement, among others. Our mission is to offer the public simple and secure
-                                        investment with stress-free process which suit each investor.
-                                    </p>
-                                </div>
+    <div class="container" style="margin-top: 30px">
+        <div class="row">
+            <div class="col-12">
+                <div class="content">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-9 text-center wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">
+                            <div class="section-head">
+                                <h4 class="lasthead">Our Professional Services</h4>
+                                <h2 class="title">The Online Financial investment Platform</h2>
+                                <p class="text">
+                                    Glory Investment Limited is an instant Financial Investment platform that offers
+                                    a wide range of different services, such as Cryptocurrency, Real Estate,
+                                    Retirement, among others. Our mission is to offer the public simple and secure
+                                    investment with stress-free process which suit each investor.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     {{-- </div> --}}
 
     <!-- Statistics Start -->
@@ -244,7 +243,7 @@
                     </div>
                 </div>
 
-                <div class="col-12" style="margin-top: -100px" >
+                <div class="col-12" style="margin-top: -100px">
                     <div class="content">
                         {{-- <div class="bg-pic">
                             <img src="{{ asset('front/img/bg_greven2.png') }}" alt="">
@@ -377,8 +376,8 @@
                     </div>
                 </div>
 
-                <div class="col-12">
-                    <div class="content">
+                <div class="col-12" style="margin-top: 50px">
+                    {{-- <div class="content">
                         <div class="bg-pic">
                             <img src="{{ asset('front/img/bg_greven2.png') }}" alt="">
                         </div>
@@ -390,7 +389,7 @@
                                 CREATING A FINANCIAL STABLE AND VIBRANT WORLD THROUGH EXCELLENT INVESTMENT.
                             </p>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="row">
                         <div class="col-md-6">
                             <div class="left-image">
@@ -421,6 +420,7 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
 
             </div>
@@ -494,8 +494,8 @@
         </div>
     </div> --}}
 
-    <!-- testomonial Start -->
-    <section class="testimonial">
+    <!-- testomonial Start --> 
+    <section class="testimonial" style="margin-top: -350px">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-5 text-center wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">
