@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Corona Admin</title>
+    <title>Gloryinvestmentslimited</title>
   @include('include.a_css')
 </head>
 

@@ -2,6 +2,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- plugins:css -->
+  <img src="{{ asset('assets/gil.png') }}" class="logo" alt="logo" style="width: 100px; height: 70px">
   <link rel="stylesheet" href="{{ asset('assets/admin/vendors/mdi/css/materialdesignicons.min.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/admin/vendors/css/vendor.bundle.base.css') }}">
   <!-- endinject -->
@@ -13,7 +14,7 @@
 
   <link rel="stylesheet" href="{{ asset('assets/admin/css/style.css') }}">
   <meta name="csrf-token" content="{{ csrf_token() }}" />
-  <link rel="icon" type="image/png" href="{{ asset('assets/gil.png') }}">
+
 
   <!--Start of Tawk.to Script-->
 <!-- Smartsupp Live Chat script -->

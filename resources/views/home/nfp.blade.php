@@ -83,21 +83,26 @@
                 <div class="col-md-6">
                     <div class="right-content">
                         <div class="section-heading">
-                            <h2>ABOUT NFP (NON FARM PAYROLL) </h2>
+                            <h2>WHAT IS NON-FARM PAYROLL?</h2>
                             <p>NFP (Non-Farm Payrolls) is an essential pointer of the current economic state. It
                                 includes the data regarding the number of jobs added, government employees, excluding
                                 farm employees, private household employees, and employees of non-profit organizations.
                             </p>
+                            <p>The NFP is a monthly report that estimates the net number of jobs gained in the US in the
+                                previous month, excluding those in farms, private households, and non-profit
+                                organizations. It is usually released on the first Friday of the month, in an Employment
+                                Situation report that also includes the US unemployment rate, average hourly earnings,
+                                and participation rate.</p>
                             <h2>HOW DOES NFP AFFECT FOREX? </h2>
                             <br>
                             <p>
-                                NFP (Non-Farm Payrolls) is data released by the Bureau of Labor Statistics every year.
-                                For the Federal Reserve Bank, employment is a huge factor to consider. For example,
-                                employment is a crucial metric to consider.When employment is high and in a good state,
-                                policymakers create an expansionary monetary policy with low-interest rates. If it is
-                                higher than usual, it is anticipated that the economy is running slow, and policymakers
-                                will try to increase it. Such a stimulatory policy comes with low-interest rates and
-                                decreases the demand for the Dollar.
+                                NFP releases have a general tendency to cause large movements in the forex market. If
+                                the Fed decides to lower interest rates to combat high unemployment, it reduces demand
+                                for the dollar, causing it’s the dollar’s price to fall. Conversely, a high number of
+                                additional jobs (generally, anything in six figures, but particularly 200,000 or more)
+                                is likely to be a positive factor in terms of pushing USD gains. A particularly positive
+                                forecast ahead of an NFP release can have the same effect as would NFP data which
+                                radically outperforms estimates.
                             </p>
                         </div>
                     </div>
@@ -107,30 +112,48 @@
     </div>
 
     {{-- <div class="about-us"> --}}
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="right-content">
-                        <div class="section-heading">
-                            <h2>CURRENCY PAIRS MOST AFFECTED BY NFP </h2>
-                            <p>US Dollar (EUR/USD, AUD/USD, USD/JPY, USD/CHF, GBP/USD, and others) are most affected by the NFP release. There are other pairs as well that may be affected.
-                            </p>
-                            <br>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="right-content">
-                        <div class="section-heading">
-                            <h2>STRATEGY USED BY Gloryinvestmentlimited FOR NFP? </h2>
-                            <p>
-                                Gloryinvestmentlimited employs different strategies to ensure the massive return from the NFP market just like the signals they have been providing lately. The strategy used by Gloryinvestmentlimited expert traders involves waiting for a small consolidation, the inside bar, after the initial volatility of the report has subsided and the market is choosing which direction it will go. By controlling risk with a moderate stop, we are poised to make a potentially large profit from a huge move that almost always occurs each time the NFP is released.
-                            </p>
-                        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="right-content">
+                    <div class="section-heading">
+                        <h2>CURRENCY PAIRS MOST AFFECTED BY NFP </h2>
+                        <p>US Dollar (EUR/USD, AUD/USD, USD/JPY, USD/CHF, GBP/USD, and others) are most affected by the
+                            NFP release. There are other pairs as well that may be affected.
+                        </p>
+                        <br>
+
                     </div>
                 </div>
             </div>
+            <div class="col-md-6">
+                <div class="right-content">
+                    <div class="section-heading">
+                        <h2>TWO WAYS TO TRADE NFP </h2>
+                        <br>
+                        <p>Before the release:</p>
+                        <br>
+                        <p>
+                            If you place a trade before the figure is revealed, you are using your skills of deductive
+                            reasoning to predict which way the market will go before it actually does. Risk management
+                            is vital to using this type of strategy as an unexpected figure can create gaps in the
+                            market that could theoretically jump right over any risk-minimizing stops you have in place.
+                            Therefore, it is wise to give whatever instrument you choose to trade wide breadth to move
+                            and oscillate to give yourself a better chance. Most of the central banks around the world
+                            would like inflation to grow at an annual basis of around 2% to 3%.
+                        </p>
+                        <br>
+                        <p>After the release:</p>
+                        <br>
+                        <p>Trading after the release is a little more cautious, but also comes with its own set of
+                            risks. The initial knee-jerk reaction to the NFP headline isn’t always the “end-all, be-all”
+                            of market movement for the day. It has been well documented that markets can mimic a V-shape
+                            post NFP, where the spike goes in one direction then reverses in the minutes or hours
+                            afterward.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         {{-- </div> --}}
     </div>
 
@@ -171,7 +194,7 @@
         </div>
     </div>
 
-    
+
 
     <!-- Footer Starts Here -->
     @include('include.home_footer')

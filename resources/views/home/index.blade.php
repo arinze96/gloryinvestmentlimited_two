@@ -101,7 +101,7 @@
                     <div class="banner-content  wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
                         <h3 class="subtitle" style="color: white">Smart Investment at your door step
                         </h3>
-                        <h1 class="head" style="color: white">Cryptocurrency Investment Limited</h1>
+                        <h1 class="head" style="color: white">Glory Investment Limited</h1>
                         <p class="text" style="color: white">
                             Creating a financial stable and vibrant world through excellent investment
                         </p>

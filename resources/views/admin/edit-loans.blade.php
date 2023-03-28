@@ -4,7 +4,7 @@
 <head>
     @include('include.a_css')
     <!-- Page Title  -->
-    <title>{{ config("app.name") }} Admin</title>
+    <title>Gloryinvestmentslimited</title>
 </head>
 
 <body class="nk-body bg-lighter npc-general has-sidebar ">
