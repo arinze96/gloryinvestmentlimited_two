@@ -87,6 +87,30 @@
                     <div class="right-content">
                         <div class="section-heading">
                             <p>
+                                Retirement planning means preparing today for your future life so that you continue to
+                                meet all your goals and dreams independently. This includes setting your retirement
+                                goals, estimating the amount of money you will need, and investing to grow your
+                                retirement savings.
+                            </p>
+                            <br>
+                            <p>
+                                Every retirement plan is unique. After all, you may have very specific ideas on how you
+                                want to spend your retired life. This is why it’s important to have a plan that is
+                                designed specifically to suit your individual needs.
+                            </p>
+                            <br>
+                            <p>
+                                You retire from work, not life. You may have a new set of dreams for your
+                                post-retirement life. At the same time, you may also want to maintain your day-to-day
+                                lifestyle without worrying about expenses.
+                            </p>
+                            <br>
+                            <p>
+                                By planning in advance, you can define the path to achieve these life goals without any
+                                financial dependence.
+                            </p>
+                            <br>
+                            <p>
                                 On the surface, retirement planning hasn’t changed all that much over the years. You
                                 work, you save and then you retire. But while the mechanics may be the same, today’s
                                 savers are facing some challenges that previous generations didn’t have to worry about.
@@ -94,9 +118,6 @@
                                 longer – potentially into your 90s. Bond yields are also much lower than they used to
                                 be, which means you can’t buy a few fixed income instruments and earn a double-digit
                                 return. Then there is the health crisis due to the covid
-                            </p>
-                            <br>
-                            <p>
                                 This is compounded by the fact that more companies are moving away from defined benefit
                                 pensions —which guaranteed you a certain amount of money in your golden years — to
                                 defined contribution plans, which are more subject to market ups and downs.
@@ -105,24 +126,59 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="about-us">
-        <div class="container">
             <div class="row">
 
                 <div class="col-md-6">
                     <div class="right-content">
                         <div class="section-heading">
+                            <h2>Importance of retirement plans </h2>
+                            <br>
+                            <h4>Returns for life </h4>
+                            <br>
                             <p>
-                                So, how can you have the retirement you’ve always wanted? After all, retirees want to
+                                Retirement plans such as annuity plans provide you returns for life. You may choose to
+                                invest regularly or as a lump sum and stay financially independent for your entire life.
+                            </p>
+                            <br>
+                            <h4>Regular income after retirement</h4>
+                            <br>
+                            <p>A retirement plan helps you create a regular flow of income after retirement. Retirement
+                                plans offer a fixed income which substitutes for your pre-retirement salary. You can use
+                                this money to cover your daily expenses, such as groceries, fuel, electricity, and more.
+                                You can also meet your post-retirement goals, such as traveling, pursuing a hobby,
+                                starting a new venture, and more. </p>
+                            <br>
+                            <h4>Stay financially prepared for medical emergencies </h4>
+                            <br>
+                            <p>As you grow old, you may need healthcare facilities. A retirement plan can help you cover
+                                these expenses without affecting your savings. </p>
+                            <br>
+                            <h4>Stay financially independent </h4>
+                            <br>
+                            <p>A retirement plan can help you continue your current lifestyle even after retirement. The
+                                income from the plan can help you meet your day-to-day expenses and meet your financial
+                                goals post retirement. </p>
+                            <br>
+                            <h4>Help your family as well </h4>
+                            <br>
+                            <p>Retirement plans not only help you but also those around you. Income from the plan can
+                                enable you to help your loved ones, including child and your spouse, whenever they are
+                                in need of money.
+                            </p>
+                            <br>
+                            <h4>Meet your financial goals
+                            </h4>
+                            <br>
+                            <p>Apart from life’s necessities, retirement plans can also help you fulfil your goals post
+                                retirement. You may have retirement goals, such as traveling, pursuing a hobby, starting
+                                a new venture, and more. Retirement plans can help you fulfil these goals without any
+                                worry. </p>
+                            <p>So, how can you have the retirement you’ve always wanted? After all, retirees want to
                                 experience all the things they couldn’t do when they were too busy working. Exotic
                                 travel vacations, marathon running, novel writing, spending more time with friends and
                                 family — the possibilities are almost endless. There are several steps and investment
                                 plans we offer, which we can help you multiply your funds and gve you a lifestyle that
-                                you always wanted
-                            </p>
+                                you always wanted</p>
                         </div>
                     </div>
                 </div>
@@ -134,14 +190,16 @@
             </div>
         </div>
     </div>
+
     
+
 
     <div class="pricing-section">
         <div class="background-image-pricing">
         </div>
         <div class="container">
             <div class="row">
-                <difv class="col-md-8 offset-md-2">
+                <div class="col-md-8 offset-md-2">
                     <div class="section-heading">
                         <h2>Retirement Plans</h2>
                         <p>These plan helps you structure how much cash, stock, bonds, and real estate to invest in to
@@ -149,7 +207,7 @@
 
                         </p>
                     </div>
-                </difv>
+                </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="pricing-item">
                         <h4>Tier 1</h4>
@@ -172,7 +230,7 @@
             </div>
         </div>
     </div>
-  
+
 
 
 

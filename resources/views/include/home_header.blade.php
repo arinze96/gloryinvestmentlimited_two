@@ -1,7 +1,7 @@
 <div class="navigation" style="z-index: 25000; position:static; background-color: #7cbf42">
     <div class="nav-container">
         <div class="brand">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{{ route('app.home') }}">
                 <img src="{{ asset('assets/gil.png') }}" class="logo" alt="logo" style="width: 100px; height: 70px">
             </a>
         </div>
