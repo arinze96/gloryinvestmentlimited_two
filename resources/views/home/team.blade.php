@@ -186,43 +186,43 @@
                 <div class="row justify-content-center" style="justify-content: space-between">
                     <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #fff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
-                        <img src="{{ asset('front/img/team7.jpeg') }}" alt="">
+                        <img src="{{ asset('front/img/tm7.jpeg') }}" alt="">
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Franklin Nussbaum Staff
                             Manager Investment</p>
                     </div>
                     <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #fff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
-                        <img src="{{ asset('front/img/team2.jpeg') }}" alt="">
+                        <img src="{{ asset('front/img/tm2.jpeg') }}" alt="">
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Aamos Sutinen IT expert
                             and specialist</p>
                     </div>
                     <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #fff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
-                        <img src="{{ asset('front/img/team3.jpeg') }}" alt="">
+                        <img src="{{ asset('front/img/tm5.jpeg') }}" alt="">
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Naome Balogh Staff Manager
                             Investment</p>
                     </div>
                     <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #fff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
-                        <img src="{{ asset('front/img/team4.jpeg') }}" alt="">
+                        <img src="{{ asset('front/img/tm3.jpeg') }}" alt="">
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Jasmine Bradshaw
                             administrator and Staff manager investment</p>
                     </div>
                     <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #fff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
-                        <img src="{{ asset('front/img/team5.jpeg') }}" alt="">
+                        <img src="{{ asset('front/img/tm6.jpeg') }}" alt="">
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Stephanie Morales Chief
                             executive officer and president</p>
                     </div>
                     <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #fff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
-                        <img src="{{ asset('front/img/team6.jpeg') }}" alt="">
+                        <img src="{{ asset('front/img/tm1.jpeg') }}" alt="">
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Brandon Warren Owner and
                             Major Stakeholder</p>
                     </div>
                     <div class="col-xl-3 col-lg-6 wow fadeInUp" style="border: 2px #fff solid; margin-bottom: 20px"
                         data-wow-duration="0.3s" data-wow-delay="0.3s">
-                        <img src="{{ asset('front/img/team1.jpeg') }}" alt="">
+                        <img src="{{ asset('front/img/tm4.jpeg') }}" alt="">
                         <p style="text-align: center; margin-top: 20px; margin-bottom: 20px">Russell Mellon Excecutive
                             vice president.</p>
                     </div>

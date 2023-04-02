@@ -49,6 +49,7 @@
                     <h4 class="lasthead">Social Media Handles</h4>
                     <p>Email <a
                         href="mailto:support@gloryinvestmentslimited.com"> <span>support@gloryinvestmentslimited.com</span></a>
+                        <p>Address: 15 Mount Street Lower, Dublin 2. DO2 F722, Ireland</p>
                 </p>
                    
                     <div class="social-style">
